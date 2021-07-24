@@ -1,0 +1,22 @@
+name: GameMode
+version: Beta 1.0
+main: gamemode\main
+api: [3.0.0, 4.0.0]
+author: GeistFan
+commands:
+  gm0:
+    description: Set to Survival
+    permission: pocketmine.command.gamemode
+  gm1:
+    description: Set to Creative
+    permission: pocketmine.command.gamemode
+  gm2:
+    description: Set to Adventure
+    permission: pocketmine.command.gamemode
+  gm3:
+    description: Set to Spectator
+    permission: pocketmine.command.gamemode
+
+permissions:
+  pocketmine.command.gamemode:
+    default: op
