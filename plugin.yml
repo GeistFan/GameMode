@@ -1,0 +1,22 @@
+name: GameMode
+version: 1.1.0
+main: gamemode\main
+api: [3.0.0, 4.0.0]
+author: GeistFan
+commands:
+  gm0:
+    description: "Set to Survival"
+    permission: gm.cmd
+  gm1:
+    description: "Set to Creative"
+    permission: gm.cmd
+  gm2:
+    description: "Set to Adventure"
+    permission: gm.cmd
+  gm3:
+    description: "Set to Spectator"
+    permission: gm.cmd
+
+permissions:
+  gm.cmd:
+    default: op
